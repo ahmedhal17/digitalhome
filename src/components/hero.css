@@ -1,0 +1,52 @@
+@media only screen and (max-width: 760px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    height: 80% !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero h1 {
+    font-size: 42px;
+    padding: 0;
+    margin: 0;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .hero_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    justify-content: center !important;
+    align-items: center;
+    margin: auto;
+  }
+
+  .hero_wrapper img {
+    width: 80%;
+    height: auto;
+  }
+
+  .first_slide {
+    width: 90% !important;
+    height: auto;
+  }
+  .hero .buttons {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .hero .buttons button .explore {
+    padding: 2px 8px;
+    min-width: 50%;
+    height: 40px !important;
+    font-size: 10px !important;
+  }
+
+  .hero .buttons .works {
+    min-width: 50%;
+  }
+}

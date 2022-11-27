@@ -1,0 +1,232 @@
+.signin-wrap {
+  display: flex;
+  width: 60%;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-wrap {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  width: 40%;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: black;
+  text-align: center;
+}
+
+.signup-header {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.borderline {
+  border-top: 2px solid black;
+  width: 60px;
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.signin-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.signin-wrap .borderline {
+  border-top: 2px solid #8a3cff;
+  width: 60px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.signup-wrap p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.signupButton {
+  color: white;
+  background-color: #000;
+  border-width: 1px;
+  border-color: #000;
+  border-radius: 9999px;
+  padding-left: 3rem /* 48px */;
+  padding-right: 3rem /* 48px */;
+  padding-top: 0.5rem /* 8px */;
+  padding-bottom: 0.5rem /* 8px */;
+  font-weight: 400;
+  margin-top: 36px;
+  font-size: 12px;
+}
+
+.signupButton:hover {
+  opacity: 1;
+  background-color: rgb(255 255 255);
+  color: #000;
+  font-weight: 500;
+}
+
+.login_header {
+  margin-bottom: 5px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.input {
+  background-color: #f0f2f5;
+  width: 50%;
+  padding: 8px;
+  border-radius: 25px;
+  padding-left: 14px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.input_icon {
+  color: #65676b;
+  font-size: small;
+}
+
+input {
+  padding-left: 8px;
+  font-size: 12px;
+  outline: none;
+  width: 100%;
+  background: transparent;
+}
+
+input::placeholder {
+  color: #999;
+  font-size: 12px;
+  padding-left: 4px;
+}
+
+.signup-wrap img {
+  width: 150%;
+  height: 150%;
+  display: flex;
+}
+
+.label-checkbox {
+  display: flex;
+  font-size: 10px;
+  font-weight: 400;
+  align-items: center;
+  letter-spacing: 1px;
+  width: auto;
+}
+
+.label-checkbox input {
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 4px;
+}
+
+.checkbox_wrapper {
+  padding: 0;
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.forgot {
+  font-size: 10px;
+  font-weight: 400;
+  padding: 8px 0;
+  margin: 0 4px;
+}
+
+.signinButton {
+  color: white;
+  background-color: #000;
+  border-width: 1px;
+  border-color: #000;
+  border-radius: 9999px;
+  padding-left: 3rem /* 48px */;
+  padding-right: 3rem /* 48px */;
+  padding-top: 0.5rem /* 8px */;
+  padding-bottom: 0.5rem /* 8px */;
+  font-weight: 400;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.signinButton:hover {
+  opacity: 1;
+  background-color: rgb(255 255 255);
+  color: #000;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 760px) {
+  .container {
+    padding: 2px;
+    margin-top: 0;
+  }
+  .signin-section {
+    background-position: right 100% center !important;
+    background-size: 200%;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .signin-wrap {
+    display: flex;
+    width: 100%;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .signup-wrap {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .input {
+    width: 70%;
+    padding: 5px 8px;
+  }
+  .checkbox_wrapper {
+    width: 70%;
+  }
+  .signin-container {
+    min-width: 100%;
+    flex-direction: column;
+  }
+  .input_container {
+    min-width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .login_header {
+    text-align: center;
+    font-weight: 500;
+    font-size: large;
+    margin-top: 20px;
+  }
+  .sign_container {
+    align-items: center;
+  }
+}

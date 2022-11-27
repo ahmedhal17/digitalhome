@@ -1,0 +1,16 @@
+.bottombar {
+  width: 100% !important;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.bottombar_wrapper {
+  display: flex;
+}
+@media only screen and (max-width: 760px) {
+  .bottombar a span {
+    font-size: small;
+  }
+}
