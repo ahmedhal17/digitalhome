@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/digitalhome/static/css/main.045928e0.css",
+    "main.js": "/digitalhome/static/js/main.809a4777.js",
+    "static/media/hero.png": "/digitalhome/static/media/hero.92e0b2ba2253601c51ef.png",
+    "static/media/logo.png": "/digitalhome/static/media/logo.d3a79211b6d017188fe0.png",
+    "static/media/logo_sm.png": "/digitalhome/static/media/logo_sm.0bf1d9bbce4dfac8204c.png",
+    "static/media/icon5.svg": "/digitalhome/static/media/icon5.eebbaa6bbad9fccea2d3.svg",
+    "static/media/icon3.svg": "/digitalhome/static/media/icon3.0b2f816b5da40ce66def.svg",
+    "static/media/icon4.svg": "/digitalhome/static/media/icon4.5f0fb137a9da2ac685b6.svg",
+    "static/media/icon6.svg": "/digitalhome/static/media/icon6.6444c1282d8dd47a5c98.svg",
+    "static/media/icon1.svg": "/digitalhome/static/media/icon1.78ec8eb4001edf7e6ab2.svg",
+    "static/media/icon2.svg": "/digitalhome/static/media/icon2.bd0d0f60a1f8b5604a30.svg",
+    "static/media/bottom-right.svg": "/digitalhome/static/media/bottom-right.18c6db9169a73e0f65e4.svg",
+    "index.html": "/digitalhome/index.html",
+    "static/media/bottom-left.svg": "/digitalhome/static/media/bottom-left.fffa411c278ba4c5bbe7.svg",
+    "static/media/top-left.svg": "/digitalhome/static/media/top-left.f5b8ee63e52d5fcb17a8.svg",
+    "static/media/top-right.svg": "/digitalhome/static/media/top-right.29d62de09b82be900128.svg",
+    "static/media/bottom.svg": "/digitalhome/static/media/bottom.2950778fbf0b1fe20995.svg",
+    "static/media/top.svg": "/digitalhome/static/media/top.13c316cda865941bf2ba.svg",
+    "static/media/getFetch.cjs": "/digitalhome/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.045928e0.css.map": "/digitalhome/static/css/main.045928e0.css.map",
+    "main.809a4777.js.map": "/digitalhome/static/js/main.809a4777.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.045928e0.css",
+    "static/js/main.809a4777.js"
+  ]
+}
